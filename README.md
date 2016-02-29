@@ -1,9 +1,8 @@
 
-
-[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.45945.svg)](http://dx.doi.org/10.5281/zenodo.45945)
-
+[![DOI](https://zenodo.org/badge/20391/vertesy/MarkdownReports.svg)](https://zenodo.org/badge/latestdoi/20391/vertesy/MarkdownReports)
 
 ## What is ***MarkdownReports***?
+
 
 MarkdownReports is a set of **R** functions that allows you to generate precise figures easily, and create clean reports about what you just discovered with your analysis script. It helps you to:
 
@@ -15,7 +14,7 @@ MarkdownReports is a set of **R** functions that allows you to generate precise 
 - Share your report with others via email, Github or a personal website.
 
  
-## Why did I make it & why might you like it?
+## Why did I make it & why you might like it too?
 
 I do exploratory data analysis as a daily routine, and I have constant interaction with all sorts of people: supervisors, collaborators, colleagues, etc. 
 
@@ -49,14 +48,21 @@ Install directly from **GitHub** via **devtools** with one R command:
 ...then simply load the package:
 
     require("MarkdownReports")
+    
+Alternatively, you simply source it from the web. 
+*This way function help will not work, and you will have no local copy of the code on your hard drive.*
+
+    source("https://raw.githubusercontent.com/vertesy/MarkdownReports/master/MarkdownReports/R/MarkdownReports.R")
 
 <br><br>
 ## Discover 4 Yourself!
 
--  See it working: Check out a dummy [R script](https://github.com/vertesy/MarkdownReports/blob/master/Usage_Example_Script.R) 
- and the [MarkDown report](https://github.com/vertesy/MarkdownReports/blob/master/Usage_Example_Script/Usage_Example_Script.R.log.md) 
+-  See it working: Check out a dummy [R script](https://github.com/vertesy/MarkdownReports/blob/master/Examples/Usage_Example_Script.R) 
+ and the [MarkDown report](https://github.com/vertesy/MarkdownReports/blob/master/Examples/Usage_Example_Script/Usage_Example_Script.R.log.md) 
  it generates inside this [GitHub Repo](https://github.com/vertesy/MarkdownReports).
+
 - Check out the [wiki](https://github.com/vertesy/MarkdownReports/wiki) and the [list of functions in the package.](https://github.com/vertesy/MarkdownReports/wiki/Function-Overview)
+
 - [Browse the code of the functions.](https://github.com/vertesy/MarkdownReports/blob/master/MarkdownReports/R/MarkdownReports.R)
 
 
@@ -70,7 +76,8 @@ Install directly from **GitHub** via **devtools** with one R command:
 #### Cite it via its Digital Object Identifier (DOI): 
 
 
-[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.45945.svg)](http://dx.doi.org/10.5281/zenodo.45945)
+[![DOI](https://zenodo.org/badge/20391/vertesy/MarkdownReports.svg)](https://zenodo.org/badge/latestdoi/20391/vertesy/MarkdownReports)
+
 
 
 <br>
